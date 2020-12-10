@@ -1,0 +1,163 @@
+body {
+    background-color: #1a1a1a!important ;
+    color: #e6e6e6!important; 
+    padding: 0;
+    margin: 0;
+    list-style: none!important;
+    font-family: inconsolata,monospace;
+}
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 960px;
+}
+header li a {
+    color: rgb(245, 85, 79);
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    z-index: 10;
+    position: relative;
+    align-items: center;
+    padding: 40px 20px;
+}
+.navbar-item {
+    outline: none;
+    display: inline-block;
+    text-align: center;
+    margin: 2px;
+    padding: 8px 20px;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 22.5px;
+}
+header li a:hover {
+    color: rgb(138, 47, 44);
+}
+
+.background-eff {
+    width: 100%;
+    height: 110vh;
+    border-radius: 1vw;
+    background: radial-gradient(50% 50% at 50% 50%,rgb(245 85 79) 0%,rgb(26 26 26) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .25;
+    animation: .3s ease 0s 1 normal none running nyDPA;
+    transform: translateY(-80vh);
+    z-index: -1;
+}
+.background-eff2 {
+    width: 70%;
+    height: 55vh;
+    border-radius: 1vw;
+    background: radial-gradient(50% 50% at 50% 50%,rgb(245 85 79/65%) 0%,rgb(26 26 26) 100%);
+    position: absolute;
+    top: 40px;
+    left: 500px;
+    opacity: .15;
+    animation: .3s ease 0s 1 normal none running nyDPA;
+    transform: translateY(20vh);
+    z-index: -1;
+}
+.about-text {
+    margin-top: 30px;
+    font-size: 18px;
+}
+.intro {
+    text-align: center;
+    padding: 80px 0px;
+}
+.intro-name {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.about{
+    margin-left: 60px;
+}
+.github {
+    margin: 160px 50px;
+}
+.github span {
+    border-bottom: 2px solid rgb(245, 85, 79);
+    padding-bottom: 4px;
+}
+.github a {
+    color: rgb(245, 85, 79);
+}
+.github a:hover {
+    color: rgb(138, 47, 44);
+}
+.project-info-card {
+    background-color: rgb(44, 44, 44);
+    position: relative;
+    width: 135%;
+    margin-left: -100px;
+    border-radius: 5px;
+    margin-top: 25px;
+    box-shadow: rgb(33, 33, 33) 0px 10px 30px -15px;
+}
+
+.card {
+    transform-style: preserve-3d;
+    border: 0px;
+    background-color:transparent;
+    /* box-shadow: 0 20px 20px rgba(112, 112, 112, 0.2), 0px 0px 50px rgba(112, 112, 112, 0.2); */
+}
+.tags {
+    margin-top: 15px;
+}
+.tags code {
+    color: rgb(163, 163, 163);
+    font-weight: 800;
+    font-size: 14px;
+    padding: 5px 4px;
+}
+.portfolio-divider {
+    margin-top: 250px;
+    color: rgb(245, 85, 79);
+
+}
+.contact-social-bg i {
+    font-size: 36px;
+    color: rgb(245, 85, 79);
+    display: inline;
+    vertical-align: sub;
+}
+.contact {
+    max-width: 700px;
+    margin: 100px auto 35px;
+    border: 2px solid rgb(245, 85, 79);
+    border-radius: 6px;
+    text-align: center;
+    padding: 40px;
+}
+.contact button {
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(245, 85, 79);
+    margin: auto auto;
+    padding: 0;
+    border: 0;
+}
+.contact button:hover {
+    background-color:  rgb(138, 47, 44);
+}
+.contact button a {
+    color: rgb(255, 249, 249);
+}
+.contribute-text {
+    color: rgb(245, 85, 79) ;
+}
+.contribute-text:hover {
+    color:  rgb(138, 47, 44);
+}
+footer img {
+    margin: 0;
+}
